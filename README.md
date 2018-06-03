@@ -33,7 +33,9 @@ The instances are based on Debian Stretch.
     secret_key = "asecretkey"
     }
 
-* Edit variables.tf file which contains credential and config information as shown below, feel free to add in your own default values. You'll have to place the EC2 key pair private ".pem" file in the same level as variables.tf file for the below config to work or feel free to change the default value of aws_private_key variable according to the location of .pem file.
+* Edit variables.tf file which contains credential and config information, feel free to add in your own default values. 
+
+You'll have to place the EC2 key pair private ".pem" file in the same level as main.tf file or specify relative path to ".pem" file in the connection block for "private_key" inside file function in main.tf file.
 
 * After cloning this repo, cd into the folder and execute the command "terraform init" to initialize and download provider(AWS) plugins.
 
