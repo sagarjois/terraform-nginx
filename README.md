@@ -1,4 +1,4 @@
-The goal of this project is to easily run containerized nginx server on AWS using Terrafoerm.
+The goal of this project is to easily run containerized nginx server on AWS using Terraform.
 
 The instances are based on Debian Stretch.
 
