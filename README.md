@@ -37,9 +37,9 @@ The instances are based on Debian Stretch.
 
 ## Steps to create AWS resources using terraform to run nginx server
 
-* You'll have to place the EC2 key pair private ".pem" file in the same level as main.tf file or specify relative path to ".pem" file in the connection block for "private_key" inside file function in main.tf file.
-
 * After cloning this repo, cd into the folder and execute the command "terraform init" to initialize and download provider(AWS) plugins.
+
+* You'll have to place the EC2 key pair private ".pem" file in the same level as main.tf file or specify relative path to ".pem" file in the connection block for "private_key" inside file function in main.tf file.
 
 * After editing the variables.tf file, execute "terraform plan" which shows all the resources which is going to be created and also the config for those resources required to run the app, the resources are still not created at this step.
 
