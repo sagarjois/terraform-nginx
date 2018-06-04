@@ -35,7 +35,7 @@ The instances are based on Debian Stretch.
 
 * Edit variables.tf file which contains credential and config information, feel free to add in your own default values. 
 
-## Steps to create AWS resources using terraform to run nginx server
+### Steps to create AWS resources using terraform to run nginx server
 
 * After cloning this repo, cd into the folder and execute the command "terraform init" to initialize and download provider(AWS) plugins.
 
